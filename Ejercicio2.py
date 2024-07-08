@@ -23,4 +23,4 @@ qr_personalizado = generar_codigo_qr(url_python, tamaño_qr, color_fondo_qr, col
 nombre_archivo = "codigo_qr_personalizado.png" #Establecemos el nombre con el que vamos a guardar la imagen del QR
 qr_personalizado.save(nombre_archivo) #Guardamos el QR con el nombre establcedio anteriormente 
 
-print("¡Código QR personalizado generado y guardado en", nombre_archivo, "!") #Mostramos un mensaje dicienod que se ha guardado con exito el QR
+print("¡Código QR personalizado generado y guardado en", nombre_archivo, "!") #Mostramos un mensaje diciendo que se ha guardado con exito el QR
