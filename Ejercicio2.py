@@ -14,8 +14,8 @@ def generar_codigo_qr(url, tamaño, color_fondo, color_codificacion): #Creamos u
 
 url_python = "https://www.python.org" #Establcemos el url que le vamos a agregar al QR
 tamaño_qr = int(input("Ingresa el tamaño del código QR (Ejemplo: 10): "))  #Mostramos un mensaje solicitando al usuario el tamaño del código QR
-color_fondo_qr = input("Ingresa el color de fondo del código QR (Solo ingrese colores en ingles por favor): ")  #Mostramos un mensaje solicitando al usuario el color de fondo
-color_codificacion_qr = input("Ingresa el color de codificación del código QR (Solo ingrese colores en ingles por favor): ") #Mostramos un mensaje solicitando al usuario el color de codificación
+color_fondo_qr = input("Ingresa el color de fondo del código QR (Solo ingrese nombres de colores en ingles por favor): ")  #Mostramos un mensaje solicitando al usuario el color de fondo
+color_codificacion_qr = input("Ingresa el color de codificación del código QR (Solo ingrese nombres de colores en ingles por favor): ") #Mostramos un mensaje solicitando al usuario el color de codificación
 
 qr_personalizado = generar_codigo_qr(url_python, tamaño_qr, color_fondo_qr, color_codificacion_qr) #Generamos el código QR usando la funcion generar codigo QR
 
