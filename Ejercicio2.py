@@ -1,3 +1,5 @@
+#Programar en Python un generador de códigos qr que permita al usuario elegir el tamaño y los colores del qr, el qr debe enlazar a la url de Python. Por: Josmar osorio. Para: Programación V-UBA
+
 import qrcode  #Importamos la biblioteca qrcode para generar códigos QR
 
 def generar_codigo_qr(url, tamaño, color_fondo, color_codificacion): #Creamos una funcion para generar el código QR con la URL proporcionada
